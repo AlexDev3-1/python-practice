@@ -1,5 +1,0 @@
-{"a": 2, "operation": "-", "b": 1, "result": 1}
-{"a": 10, "operation": "-", "b": 2, "result": 8}
-{"a": 10, "operation": "+", "b": 30, "result": 40}
-{"a": 10, "operation": "-", "b": 2, "result": 8}
-{"a": 29, "operation": "-", "b": 2, "result": 27}
