@@ -27,7 +27,17 @@ def view_passwords():
     for i, p in enumerate(passwords):
         print(f"{i+1}. {p['site']} - {p['user']}")
                 
+def get():
+    site = input("whats ur site name ? ")
+    pw = load_password()
+    for p in pw  :
+        if p['site'] == site:
+            print(f"password: {p['password']}")
+            return
+    else:
+        print("sits not found")
         
+    
         
 ##def encryption():
   #  load_password()
@@ -38,12 +48,13 @@ def view_passwords():
 
 
 while True:
-    masssge = input("add / view / q: ")
+    masssge = input("add / view / get / q: ")
     if masssge == "add" :
         add_password()
     elif masssge == "view":
         view_passwords()
-        
+    elif masssge == "get":
+        get()
     else:
         break
         
